@@ -15,4 +15,8 @@ public class MyTest {
     public int subtract(@PathVariable int a, @PathVariable int b) {
         return a - b;
     }
+    @GetMapping
+    public String hello() {
+        return "Abhishek";
+    }
 }
